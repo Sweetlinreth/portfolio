@@ -454,6 +454,23 @@ nav a.active::after {
     position: relative;
 }
 
+.profile-symbol img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.circle-outline {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
 .profile-symbol::before,
 .profile-symbol::after {
     content: "";
